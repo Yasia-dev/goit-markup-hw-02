@@ -1,0 +1,188 @@
+:root {
+    --font-family-main: "Roboto", sans-serif;
+    --font-family-logo: "Raleway", sans-serif;
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --logo-main-color: #2196f3;
+    --logo-secondary-color: #000000;
+    --body-main-color: #ffffff;
+    --body-secondary-color: #2f303a;
+    --body-third-color: #f5f4fa;
+    --hover-btn-color: #188ce8;
+}
+
+/* general rules */
+body {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-accent-color-white);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+ul {
+list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Web Studio */
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-nav {
+
+}
+
+.header-logo {
+    
+}
+
+.accent{
+
+}
+
+.header-list {
+
+}
+
+.header-list li {
+    display: inline;
+}
+
+.header-item {
+
+}
+
+.header-contacts li {
+    display: inline;
+}
+
+.header-mail {
+
+}
+
+.header-contact {
+
+}
+
+.section-btn {
+
+}
+
+.slogan {
+
+}
+
+.button {
+
+}
+
+.features {
+
+}
+
+.features-list {
+
+}
+
+.features-list h3 {
+    display: inline;
+}
+
+.features-desc {
+
+}
+
+.features-desc p {
+    display: inline;
+}
+
+.what-we-do {
+
+}
+
+.img-action {
+
+}
+
+.team {
+
+}
+
+.team-title {
+
+}
+
+.team-img {
+
+}
+
+.team-name {
+
+}
+
+.team-position {
+
+}
+
+.footer {
+
+}
+
+.footer-logo {
+
+}
+
+.footer-adress {
+
+}
+
+.footer-mail {
+
+}
+
+.footer-contact {
+
+}
+
+/* Портфоліо */
+
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+
+    color: var(--secondary-text-color);
+    background-color: var(--body-third-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--logo-main-color);
+    color: var(--body-main-color);
+}
+
+.portfolio-list-item {
+    background-color: var(--body-main-color);
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--secondary-text-color);
+}
+
+.portfolio-desc {
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--main-text-color);
+}
