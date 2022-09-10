@@ -20,17 +20,22 @@ body {
 }
 
 ul {
-list-style: none;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
 }
 
+ul li {
+    display: inline;
+}
+
 /* Web Studio */
 
 .header {
     background-color: #FFFFFF;
+    margin: 16px;
 }
 
 .header-nav {
@@ -38,15 +43,19 @@ a {
 }
 
 .header-logo {
-    
+font-family: var(--font-family-logo);    
+font-weight: 700;
+font-size: 26px;
 }
 
 .accent{
-
+color: var(--logo-main-color);
 }
 
 .header-list {
-
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
 }
 
 .header-list li {
@@ -57,32 +66,74 @@ a {
 
 }
 
+.header-link {
+color: var(--secondary-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+color: #2196f3;
+}
+
 .header-contacts li {
     display: inline;
 }
 
-.header-mail {
-
+.header-mail, .header-contact {
+color: var(--main-text-color);
+font-weight: 500;
+font-size: 14px;
 }
 
-.header-contact {
-
+.header-mail:hover,
+.header-mail:focus {
+    color: #2196f3;
 }
+
+.header-contact:hover,
+.header-contact:focus {
+    color: #2196f3;
+}
+
 
 .section-btn {
-
+    color: var(--body-main-color);
+    background-color: var(--body-secondary-color);
 }
 
 .slogan {
-
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--logo-main-color);
+    color: var(--body-main-color);
+}
 
+.button:hover,
+.button:focus {
+    background-color: var(--hover-btn-color);
 }
 
 .features {
 
+}
+
+.feature-item {
+    display: inline-block;
 }
 
 .features-list {
@@ -151,38 +202,38 @@ a {
 
 /* Портфоліо */
 
-.portfolio-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    cursor: pointer;
+.portfolio {
 
-    color: var(--secondary-text-color);
-    background-color: var(--body-third-color);
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-    background-color: var(--logo-main-color);
-    color: var(--body-main-color);
+.portfolio-btn-list {
+
+}
+
+.portfolio-btn {
+
+}
+
+.portfolio-img-list {
+
 }
 
 .portfolio-list-item {
-    background-color: var(--body-main-color);
+
+}
+
+.link {
+
+}
+
+.portfolio-img {
+
 }
 
 .portfolio-title {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
 
-    color: var(--secondary-text-color);
 }
 
 .portfolio-desc {
-    font-size: 16px;
-    line-height: 1.88;
-
-    color: var(--main-text-color);
+    
 }
