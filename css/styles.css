@@ -5,7 +5,6 @@
     --logo-secondary-color: #000000;
     --body-main-color: #ffffff;
     --body-secondary-color: #2f303a;
-    --body-third-color: #F5F5F5;
     --body-fourth-color:#F5F4FA;
     --hover-btn-color: #188ce8;
 }
@@ -31,7 +30,7 @@ a {
 /* Web Studio */
 
 .header {
-    background-color: var(--body-main-color);
+background-color: var(--body-main-color);
 }
 
 .header-nav {
@@ -44,9 +43,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 color: var(--logo-secondary-color);
-text-align: left;
-vertical-align: top;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 }
 
 .accent{
@@ -54,7 +51,6 @@ color: var(--logo-main-color);
 }
 
 .header-list {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 }
@@ -73,7 +69,7 @@ color: #2196f3;
 }
 
 .header-contacts li {
-    display: inline;
+display: inline;
 }
 
 .header-mail, .header-contact {
@@ -84,51 +80,51 @@ font-size: 14px;
 
 .header-mail:hover,
 .header-mail:focus {
-    color: #2196f3;
+color: #2196f3;
 }
 
 .header-contact:hover,
 .header-contact:focus {
-    color: #2196f3;
+color: #2196f3;
 }
 
 
 .section-btn {
-    color: var(--body-main-color);
-    background-color: var(--body-secondary-color);
+color: var(--body-main-color);
+background-color: var(--body-secondary-color);
 }
 
 .slogan {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 .button {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    background-color: var(--logo-main-color);
-    color: var(--body-main-color);
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+cursor: pointer;
+background-color: var(--logo-main-color);
+color: var(--body-main-color);
 }
 
 .button:hover,
 .button:focus {
-    background-color: var(--hover-btn-color);
+background-color: var(--hover-btn-color);
 }
 
 .features {
-background-color: var(--body-third-color);
+
 }
 
 .hidden-title {
-    visibility: hidden;
+visibility: hidden;
 }
 
 .feature-item {
@@ -155,7 +151,7 @@ letter-spacing: 0.03;
 }
 
 .what-we-do-list {
-background-color: var(--body-third-color);
+
 }
 
 .what-we-do {
@@ -163,7 +159,7 @@ line-height: 1.16;
 font-size: 36px;
 color: var(--secondary-text-color);
 text-align: center;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 }
 
 .img-action {
@@ -189,10 +185,8 @@ color: #212121;
 }
 
 .team-position {
-font-style: "Regular";
 font-size: 16px;
 line-height: 1.18;
-color: #757575;
 }
 
 .footer {
@@ -212,33 +206,36 @@ color: var(--logo-main-color);
 }
 
 .footer-adress {
-font-style: "regular";
 line-height: 1.71; 
-color: #ffffff;
+color: var(--main-text-color);
 }
 
 .footer-adress:hover,
-.footer-adress:focus
-
-.footer-mail {
-color: #757575;
-} 
-
-.footer-contact {
-color: #757575;
+.footer-adress:focus{
+color: var(--body-main-color);
 }
 
+.footer-mail{
+color: var(--main-text-color);
+}
 .footer-mail:hover,
-.footer-mail:focus
+.footer-mail:focus{
+color: var(--body-main-color);
+}
 
+.footer-contact{
+color: var(--main-text-color);
+}
 .footer-contact:hover,
-.footer-contact:focus
+.footer-contact:focus{
+color: var(--body-main-color);
+}
 
 
 /* Портфоліо */
 
 .portfolio {
-background-color: #F5F5F5;
+
 }
 
 .portfolio-btn-list {
@@ -252,15 +249,12 @@ font-size: 16px;
 line-height: 1.6;
 letter-spacing: 0.03em;
 cursor: pointer;
-text-align: center;
-background-color: #F5F4FA;
 color: #212121;
-text-align: center;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: var(--logo-main-color);
+background-color: var(--logo-main-color);
 }
 
 .portfolio-img-list {
@@ -282,12 +276,12 @@ text-align: center;
 .portfolio-title {
 font-weight: 700;
 line-height: 2;
-letter-spacing: 0.06;
+letter-spacing: 0.06em;
 color: var(--secondary-text-color);
 }
 
 .portfolio-desc {
 font-size: 16px;
 line-height: 1.87;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 }
