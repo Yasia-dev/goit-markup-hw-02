@@ -38,7 +38,7 @@ background-color: var(--body-main-color);
 }
 
 .header-logo {
-font-family: "Raleway";    
+font-family: "Raleway", sans-serif;    
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -68,8 +68,8 @@ color: var(--secondary-text-color);
 color: #2196f3;
 }
 
-.header-contacts li {
-display: inline;
+.current {
+color: var(--logo-main-color);
 }
 
 .header-mail, .header-contact {
@@ -135,7 +135,7 @@ visibility: hidden;
 color: var(--secondary-text-color);
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.03; 
+letter-spacing: 0.03em; 
 }
 
 .features-list h3 {
@@ -194,15 +194,19 @@ background-color: var(--body-secondary-color);
 }
 
 .footer-logo {
-font-family: "raleway";    
-font-style: "bold"; 
+font-family: "Raleway", sans-serif; ;    
+font-style: 700;  
 font-size: 26px;
 line-height: 1.19;
 color: var(--body-main-color);
-}
+}    
 
 .accent-footer {
 color: var(--logo-main-color);
+}
+
+.adress {
+font-style: normal;
 }
 
 .footer-adress {
@@ -249,12 +253,13 @@ font-size: 16px;
 line-height: 1.6;
 letter-spacing: 0.03em;
 cursor: pointer;
-color: #212121;
+color: var(--secondary-text-color)
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
 background-color: var(--logo-main-color);
+color: var(--body-main-color);
 }
 
 .portfolio-img-list {
@@ -281,7 +286,7 @@ color: var(--secondary-text-color);
 }
 
 .portfolio-desc {
+color: var(--main-text-color);
 font-size: 16px;
 line-height: 1.87;
-letter-spacing: 0.03em;
 }
